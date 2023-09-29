@@ -14,8 +14,8 @@ const isPalindrome = (number) => {
     if (pali[i] !== pali[pali.length - 1 - i]) {
       console.log(false);
     }
-    console.log(true);
   }
+  console.log(true);
 };
 
 isPalindrome(number);
