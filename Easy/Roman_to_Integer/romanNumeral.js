@@ -80,5 +80,5 @@ const romanToInt = (input = "") => {
   return total;
 };
 
-let numeral = "";
+let numeral = "MCMXCIV";
 romanToInt(numeral);

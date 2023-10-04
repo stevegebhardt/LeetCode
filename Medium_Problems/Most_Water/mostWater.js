@@ -19,10 +19,10 @@
 //Create function that accepts and array of heights
 const maxArea = (height) => {
   let maximumArea = 0;
+
   for (let l = 0; l < height.length; l++) {
     for (let r = 1; r < height.length; r++) {
-      let area = Math.min(height[l], height[r]) * (l - r);
-
+      let area = Math.min(height[l], height[r]) * r - l;
       maximumArea = Math.max(maximumArea, area);
     }
   }
